@@ -1,6 +1,6 @@
 # 🛡️ Fundamentos de Seguridad Informática
 
-## 1. Definiciones Principales
+## Definiciones Principales
 
 * **💻 Seguridad Informática:** Conjunto de prácticas, técnicas y herramientas diseñadas para proteger los sistemas informáticos y la información almacenada en ellos.
 * **🌐 Ciberseguridad:** Conjunto de estrategias, tecnologías y prácticas diseñadas para **defender** los sistemas en los que guardamos información. Incluye tecnología, ejercicios ofensivos y defensa activa.
@@ -53,6 +53,13 @@ Asegura que la información sea accedida únicamente por sujetos autorizados (pe
 * **Insiders:** Amenazas internas (empleados descontentos).
 * **Trashing:** Recolección de información de la basura física.
 
+#### 🛡️Medidas de Protección contra la confidencialidad
+- Clasificación de la información
+- Mecanismos de control de acceso
+- Cifrado de datos
+- Auditorias
+- Multi factor de autenticación
+- Capacitación del personal: identificación de phishing, divulgación de información
 ---
 
 ## 🛡️ Integridad
@@ -98,15 +105,27 @@ Es una estrategia que emplea controles en **capas** (como una cebolla). Si una c
 
 ### 🔑 Mínimo Privilegio (PoLP) y Need to Know
 * **PoLP (Principle of Least Privilege):** Asignar permisos mínimos para trabajar. Es la base del modelo **Zero Trust**. Aplica a todos los recursos y acciones.
-* **Need to Know:** El acceso se limita estrictamente a la información que el trabajo requiere y debe estar justificado. Se enfoca en las **personas** y su rol.
+
+* **Need to Know:** Implica que un usuario solamente debería tener acceso a la información que su trabajo requiere, **limita** el acceso que solo se asigna a las personas que justifiquen su uso.
+
+> [!NOTE]
+> El PoLP aplica a todos los recursos y acciones en un sistema. En cambio Need to Know se enfoca en las personas y su acceso a la información según su rol
+
 
 ### 🔄 Rotación de Tareas y Segregación de Funciones
-* **Rotación:** Evita que un empleado haga siempre lo mismo. Previene fraudes, abusos de poder y asegura que el conocimiento no dependa de una sola persona.
-* **Segregación:** Divide responsabilidades.
+* 🫡 **Rotación:** Implica cambiarle a un empleado sus funciones principales. Evita que un empleado haga siempre lo mismo. Previene fraudes, abusos de poder y asegura que el conocimiento no dependa de una sola persona.
+A su vez el empleado obtiene mas conocimientos y no se le hace monótono el trabajo.
+
+* 🧩**Segregación (SoD):** Divide responsabilidades y tareas entre diferentes personar para evitar control total, evita fraude y mejor trazabilidad.
     1.  Armado de matriz de incompatibilidades.
     2.  Ejecución de reglas.
     3.  Identificación de usuarios con funciones incompatibles.
     4.  Plan de acción correctivo.
+
+> *Nota: Debería hacerse antes pero suele ser correctivo*
+ 
+_Ambas practicas se complementan, la rotación ayuda a que carias personas estén involucradas en un proceso mientras que la segregación divide las responsabilidades para que una persona no tenga control total sobre cualquier parte del proceso _
+
 
 ### ✍️ No Repudio
 Asegura que una persona no pueda negar haber realizado una acción. Fundamental en criptografía y auditoría.
@@ -119,7 +138,6 @@ Asegura que una persona no pueda negar haber realizado una acción. Fundamental 
 
 
 # 🤔Cuestionario
----
 
 ### **Cuestionario - Introducción a la Ciberseguridad**
 
