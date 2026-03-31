@@ -12,7 +12,7 @@
 
 | Tipo | Momento de Aplicación | Objetivo | Ejemplo |
 | :--- | :--- | :--- | :--- |
-| **Preventivas** | Antes de un evento. | Evitar una vulnerabilidad | Configurar un *firewall* para evitar un *flurrer*. |
+| **Preventivas** | Antes de un evento. | Evitar una vulnerabilidad | Configurar un *firewall* para evitar un *flutter*. |
 | **Detectivas** | Mientras ocurre el evento. | Permiten bloquear o no el ataque en el momento | Antivirus o IDS (*Intrusion Detection System*). |
 | **Correctivas** | Después del evento. | Intentan minimizar el daño de lo 	que sucedió | Uso de *backups* tras un *ransomware* o parchar un problema detectado. |
 
