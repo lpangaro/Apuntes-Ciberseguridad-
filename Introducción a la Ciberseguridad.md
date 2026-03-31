@@ -1,5 +1,3 @@
-Aquí tienes el texto organizado con formato **GFM (GitHub Flavored Markdown)**, corrección ortográfica, estructuración jerárquica y emojis para mejorar la legibilidad, manteniendo toda la información original.
-
 ---
 
 # 🛡️ Fundamentos de Seguridad Informática
