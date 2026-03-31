@@ -1,5 +1,3 @@
----
-
 # 🛡️ Fundamentos de Seguridad Informática
 
 ## 1. Definiciones Principales
